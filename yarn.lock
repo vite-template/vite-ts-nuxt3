@@ -479,7 +479,7 @@
   "resolved" "https://registry.npmjs.org/@nuxt/ui-templates/-/ui-templates-0.1.1.tgz"
   "version" "0.1.1"
 
-"@nuxt/vite-builder@npm:@nuxt/vite-builder-edge@3.0.0-rc.3-27550969.a4a3cff":
+"@nuxt/vite-builder@^3.0.0-rc.3":
   "integrity" "sha512-iehKSMCdvIFfH3O1nAbKpBfMWMz8U+kRUJp3j3Ir7i2t8tOIcKMF/JmKBlZDVjsfRy4qK/DuZtEU7rO55lckGw=="
   "resolved" "https://registry.npmjs.org/@nuxt/vite-builder-edge/-/vite-builder-edge-3.0.0-rc.3-27550969.a4a3cff.tgz"
   "version" "3.0.0-rc.3-27550969.a4a3cff"
@@ -758,7 +758,7 @@
     "estree-walker" "^2.0.2"
     "magic-string" "^0.25.7"
 
-"@vue/reactivity@^3.2.34", "@vue/reactivity@3.2.36":
+"@vue/reactivity@^3.2.33", "@vue/reactivity@3.2.36":
   "integrity" "sha512-c2qvopo0crh9A4GXi2/2kfGYMxsJW4tVILrqRPydVGZHhq0fnzy6qmclWOhBFckEhmyxmpHpdJtIRYGeKcuhnA=="
   "resolved" "https://registry.npmjs.org/@vue/reactivity/-/reactivity-3.2.36.tgz"
   "version" "3.2.36"
@@ -790,7 +790,7 @@
     "@vue/compiler-ssr" "3.2.36"
     "@vue/shared" "3.2.36"
 
-"@vue/shared@^3.2.34", "@vue/shared@3.2.36":
+"@vue/shared@^3.2.33", "@vue/shared@3.2.36":
   "integrity" "sha512-JtB41wXl7Au3+Nl3gD16Cfpj7k/6aCroZ6BbOiCMFCMvrOpkg/qQUXTso2XowaNqBbnkuGHurLAqkLBxNGc1hQ=="
   "resolved" "https://registry.npmjs.org/@vue/shared/-/shared-3.2.36.tgz"
   "version" "3.2.36"
@@ -2648,7 +2648,7 @@
     "iconv-lite" "^0.4.4"
     "sax" "^1.2.4"
 
-"nitropack@^0.4.4":
+"nitropack@^0.4.2":
   "integrity" "sha512-nK6UkSvAHvtx9sSLntirQgU5wJB49BIwJXf+kNbkHrA7cxFNZG11GH1v+vzkMSDKfBPWvVMewEkOGfIGXDpH9g=="
   "resolved" "https://registry.npmjs.org/nitropack/-/nitropack-0.4.4.tgz"
   "version" "0.4.4"
@@ -2858,26 +2858,26 @@
   "resolved" "https://registry.npmjs.org/number-is-nan/-/number-is-nan-1.0.1.tgz"
   "version" "1.0.1"
 
-"nuxi@npm:nuxi-edge@3.0.0-rc.3-27550969.a4a3cff":
+"nuxi@^3.0.0-rc.3":
   "integrity" "sha512-1KPUqgoqnZTY2agFTn5rUtjalWb/ClBUBNXRg78qcU8QbowMy+bgV2oW/INILsbkUJogahCvUN2ayVUayvPPlQ=="
   "resolved" "https://registry.npmjs.org/nuxi-edge/-/nuxi-edge-3.0.0-rc.3-27550969.a4a3cff.tgz"
   "version" "3.0.0-rc.3-27550969.a4a3cff"
   optionalDependencies:
     "fsevents" "~2.3.2"
 
-"nuxt3@^3.0.0-rc.3-27550969.a4a3cff":
-  "integrity" "sha512-sxwtqIaKthjiipOyUuDrUYN0x5ac+9w2ItyH8VScZcX48ocIoQ2c9PxjD6yMgq/obBw0/3GZ0KIw+bUKn+2PUg=="
-  "resolved" "https://registry.npmjs.org/nuxt3/-/nuxt3-3.0.0-rc.3-27550969.a4a3cff.tgz"
-  "version" "3.0.0-rc.3-27550969.a4a3cff"
+"nuxt@3.0.0-rc.3":
+  "integrity" "sha512-Ch68sD9Npt3BN0ZphvtRurVhFqtm1sAu4VDoXghmsRoVAwpT2ZDeDWaQJ9PSmXHYwyEaXPIZ9B2EDXPKETh0cQ=="
+  "resolved" "https://registry.npmjs.org/nuxt/-/nuxt-3.0.0-rc.3.tgz"
+  "version" "3.0.0-rc.3"
   dependencies:
     "@nuxt/devalue" "^2.0.0"
-    "@nuxt/kit" "npm:@nuxt/kit-edge@3.0.0-rc.3-27550969.a4a3cff"
-    "@nuxt/schema" "npm:@nuxt/schema-edge@3.0.0-rc.3-27550969.a4a3cff"
+    "@nuxt/kit" "^3.0.0-rc.3"
+    "@nuxt/schema" "^3.0.0-rc.3"
     "@nuxt/telemetry" "^2.1.3"
     "@nuxt/ui-templates" "^0.1.1"
-    "@nuxt/vite-builder" "npm:@nuxt/vite-builder-edge@3.0.0-rc.3-27550969.a4a3cff"
-    "@vue/reactivity" "^3.2.34"
-    "@vue/shared" "^3.2.34"
+    "@nuxt/vite-builder" "^3.0.0-rc.3"
+    "@vue/reactivity" "^3.2.33"
+    "@vue/shared" "^3.2.33"
     "@vueuse/head" "^0.7.6"
     "chokidar" "^3.5.3"
     "cookie-es" "^0.5.0"
@@ -2890,22 +2890,22 @@
     "hash-sum" "^2.0.0"
     "hookable" "^5.1.1"
     "knitwork" "^0.1.1"
-    "magic-string" "^0.26.2"
+    "magic-string" "^0.26.1"
     "mlly" "^0.5.2"
-    "nitropack" "^0.4.4"
-    "nuxi" "npm:nuxi-edge@3.0.0-rc.3-27550969.a4a3cff"
+    "nitropack" "^0.4.2"
+    "nuxi" "^3.0.0-rc.3"
     "ohash" "^0.1.0"
-    "ohmyfetch" "^0.4.18"
+    "ohmyfetch" "^0.4.16"
     "pathe" "^0.3.0"
     "perfect-debounce" "^0.1.3"
     "scule" "^0.2.1"
     "ufo" "^0.8.4"
     "unctx" "^1.1.4"
-    "unenv" "^0.5.2"
-    "unimport" "^0.2.1"
+    "unenv" "^0.5.1"
+    "unimport" "^0.1.9"
     "unplugin" "^0.6.3"
     "untyped" "^0.4.4"
-    "vue" "^3.2.34"
+    "vue" "^3.2.33"
     "vue-bundle-renderer" "^0.3.8"
     "vue-router" "^4.0.15"
 
@@ -2924,7 +2924,7 @@
   "resolved" "https://registry.npmjs.org/ohash/-/ohash-0.1.0.tgz"
   "version" "0.1.0"
 
-"ohmyfetch@^0.4.15", "ohmyfetch@^0.4.16", "ohmyfetch@^0.4.18":
+"ohmyfetch@^0.4.15", "ohmyfetch@^0.4.16":
   "integrity" "sha512-MslzNrQzBLtZHmiZBI8QMOcMpdNFlK61OJ34nFNFynZ4v+4BonfCQ7VIN4EGXvGGq5zhDzgdJoY3o9S1l2T7KQ=="
   "resolved" "https://registry.npmjs.org/ohmyfetch/-/ohmyfetch-0.4.18.tgz"
   "version" "0.4.18"
@@ -4092,7 +4092,7 @@
   "resolved" "https://registry.npmjs.org/undici/-/undici-5.2.0.tgz"
   "version" "5.2.0"
 
-"unenv@^0.5.2":
+"unenv@^0.5.1", "unenv@^0.5.2":
   "integrity" "sha512-dojYcCqOFEWZosvqWs/AEaEfM/tLJexMKBW0ebkn6JKfEnYR5fKxbYJB8QV9kAPXV/ENseeWQkv6uJ3KCXz+1g=="
   "resolved" "https://registry.npmjs.org/unenv/-/unenv-0.5.2.tgz"
   "version" "0.5.2"
@@ -4278,7 +4278,7 @@
   dependencies:
     "@vue/devtools-api" "^6.0.0"
 
-"vue@^2.6.14 || ^3.2.0", "vue@^3.0.0-0 || ^2.6.0", "vue@^3.2.0", "vue@^3.2.25", "vue@^3.2.34", "vue@>=3", "vue@3.2.36":
+"vue@^2.6.14 || ^3.2.0", "vue@^3.0.0-0 || ^2.6.0", "vue@^3.2.0", "vue@^3.2.25", "vue@^3.2.33", "vue@>=3", "vue@3.2.36":
   "integrity" "sha512-5yTXmrE6gW8IQgttzHW5bfBiFA6mx35ZXHjGLDmKYzW6MMmYvCwuKybANRepwkMYeXw2v1buGg3/lPICY5YlZw=="
   "resolved" "https://registry.npmjs.org/vue/-/vue-3.2.36.tgz"
   "version" "3.2.36"

@@ -1,3 +1,3 @@
 <template>
-    <div>parent/index page</div>
+  <div>parent/index page</div>
 </template>

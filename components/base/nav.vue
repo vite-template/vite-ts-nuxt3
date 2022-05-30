@@ -1,3 +1,3 @@
 <template>
-    <div>van page</div>
+  <div>van page</div>
 </template>

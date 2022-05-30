@@ -1,3 +1,3 @@
 <template>
-    <div>child page</div>
+  <div>child page</div>
 </template>

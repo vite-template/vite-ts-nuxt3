@@ -1,7 +1,7 @@
 // let counter = 0
 const todo = {
   id: '1',
-  name: 'hello'
+  name: 'hello',
 }
 export default () => {
   // counter++
