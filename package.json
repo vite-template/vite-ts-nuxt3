@@ -1,12 +1,14 @@
 {
   "private": true,
   "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview"
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "start": "node .output/server/index.mjs"
   },
-  "devDependencies": {
-    "nuxt": "3.0.0-rc.3"
+  "dependencies": {
+    "@nuxt/kit": "^3.0.0-rc.3",
+    "@pinia/nuxt": "^0.1.9",
+    "nuxt3": "^3.0.0-rc.3-27550969.a4a3cff",
+    "pinia": "^2.0.14"
   }
 }
